@@ -1,0 +1,415 @@
+unit ComputerInfo;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.ExtCtrls, Vcl.Imaging.pngimage,
+  Vcl.StdCtrls, Vcl.Imaging.jpeg, Vcl.Buttons, Vcl.Menus;
+
+type
+  TForm2 = class(TForm)
+    PC: TImage;
+    Label5: TLabel;
+    Image2: TImage;
+    Button2: TButton;
+    BG: TImage;
+    Image1: TImage;
+    Kuler: TImage;
+    Block: TImage;
+    PKuler: TImage;
+    PBlock: TImage;
+    Video: TImage;
+    PVideo: TImage;
+    MotherBoard: TImage;
+    PMotherBoard: TImage;
+    Sound: TImage;
+    PSound: TImage;
+    Net: TImage;
+    PNet: TImage;
+    RAM: TImage;
+    PRAM: TImage;
+    Optical: TImage;
+    POptical: TImage;
+    Hard: TImage;
+    PHard: TImage;
+    RadioGroup1: TRadioGroup;
+    Label1: TLabel;
+    Label2: TLabel;
+    Label3: TLabel;
+    Panel1: TPanel;
+    Panel2: TPanel;
+    Shape1: TShape;
+    Image3: TImage;
+    procedure Button2Click(Sender: TObject);
+    procedure FormActivate(Sender: TObject);
+    procedure PKulerClick(Sender: TObject);
+    procedure PBlockClick(Sender: TObject);
+    procedure PVideoClick(Sender: TObject);
+    procedure PMotherBoardClick(Sender: TObject);
+    procedure PHardClick(Sender: TObject);
+    procedure POpticalClick(Sender: TObject);
+    procedure PNetClick(Sender: TObject);
+    procedure PRAMClick(Sender: TObject);
+    procedure PSoundClick(Sender: TObject);
+    procedure RadioGroup1Click(Sender: TObject);
+    procedure Image3Click(Sender: TObject);
+    procedure Image3MouseEnter(Sender: TObject);
+    procedure Image3MouseLeave(Sender: TObject);
+    procedure Shape1MouseEnter(Sender: TObject);
+    procedure Shape1MouseLeave(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  Form2: TForm2;
+
+implementation
+
+{$R *.dfm}
+
+uses Computer, InformationWindow;
+
+
+
+
+procedure TForm2.Button2Click(Sender: TObject);
+begin
+  Form2.Hide;
+  Form3.ShowModal;
+  Form2.Image1.Visible:=False;
+  Button2.Visible:=False;
+  Label5.Visible:=False;
+  Form2.Panel2.Visible:=false;
+  Radiogroup1.Visible:=false;
+  PC.Visible:=true;
+
+end;
+
+
+procedure TForm2.FormActivate(Sender: TObject);
+begin
+  Form2.Block.Picture.LoadFromFile('Компоненты\block.jpg');
+  Form2.Block.Visible:=false;
+
+  Form2.Kuler.Picture.LoadFromFile('Компоненты\Кулер.jpg');
+  Form2.Kuler.Visible:=false;
+
+  Form2.Video.Picture.LoadFromFile('Компоненты\Video.png');
+  Form2.Video.Visible:=False;
+
+  Form2.MotherBoard.Picture.LoadFromFile('Компоненты\Motherboard.jpg');
+  Form2.MotherBoard.Visible:=false;
+
+  Form2.RAM.Picture.LoadFromFile('Компоненты\RAM.jpg');
+  Form2.RAM.Visible:=false;
+
+  Form2.Sound.Picture.LoadFromFile('Компоненты\sound.jpg');
+  Form2.Sound.Visible:=false;
+
+  Form2.Net.Picture.LoadFromFile('Компоненты\Net.jpg');
+  Form2.Net.Visible:=false;
+
+  Form2.Hard.Picture.LoadFromFile('Компоненты\Hard.jpg');
+  Form2.Hard.Visible:=false;
+
+  Form2.Optical.Picture.LoadFromFile('Компоненты\Optical.jpg');
+  Form2.Optical.Visible:=false;
+end;
+
+procedure TForm2.Image3Click(Sender: TObject);
+begin
+  Form2.Close;
+  Form1.Show;
+  Form2.PC.Visible:=true;
+  Form2.Image1.Visible:=False;
+  Button2.Visible:=False;
+  Label5.Visible:=False;
+  Form2.Panel2.Visible:=false;
+  Radiogroup1.Visible:=false;
+end;
+
+procedure TForm2.Image3MouseEnter(Sender: TObject);
+begin
+Shape1.Brush.Color:=clGray;
+end;
+
+procedure TForm2.Image3MouseLeave(Sender: TObject);
+begin
+Shape1.Brush.Color:=clWhite;
+end;
+
+procedure TForm2.PBlockClick(Sender: TObject);
+begin
+  Form2.RadioGroup1.Visible:=false;
+  Form2.Kuler.Visible:=false;
+  Form2.PC.Visible:=False;
+  Form2.Video.Visible:=False;
+  Form2.MotherBoard.Visible:=false;
+  Form2.Optical.Visible:=false;
+  Form2.Net.Visible:=false;
+  Form2.Hard.Visible:=false;
+  Form2.Sound.Visible:=false;
+  Form2.RAM.Visible:=false;
+
+  Form2.Block.Visible:=true;
+  Form2.Image1.Picture.LoadFromFile('ИнформацияКартинки\БлокПитания.png');
+  Form2.Image1.Visible:=true;
+  Form2.Label5.Caption:='Блок Питания';
+  Form2.Label5.Visible:=true;
+  Form2.Panel2.Visible:=true;
+  Form2.Button2.Visible:=true;
+
+  Form3.Memo1.Lines.LoadFromFile('ИнформацияТекст\Block.txt');
+  Form3.Image1.Picture.LoadFromFile('ИнформацияКартинки\БлокПитания.png');
+  Form3.Label1.Caption:='Блок питания';
+end;
+
+procedure TForm2.PHardClick(Sender: TObject);
+begin
+  Form2.RadioGroup1.Visible:=false;
+  Form2.Kuler.Visible:=false;
+  Form2.PC.Visible:=False;
+  Form2.Video.Visible:=False;
+  Form2.MotherBoard.Visible:=false;
+  Form2.Block.Visible:=false;
+  Form2.Optical.Visible:=false;
+  Form2.Net.Visible:=false;
+  Form2.Sound.Visible:=false;
+  Form2.RAM.Visible:=false;
+
+  Form2.Hard.Visible:=true;
+  Form2.Image1.Picture.LoadFromFile('ИнформацияКартинки\HardDisc.png');
+  Form2.Image1.Visible:=true;
+  Form2.Label5.Caption:='Жесткий Диск';
+  Form2.Label5.Visible:=true;
+  Form2.Panel2.Visible:=true;
+  Form2.Button2.Visible:=true;
+
+  Form3.Memo1.Lines.LoadFromFile('ИнформацияТекст\HardDisc.txt');
+  Form3.Image1.Picture.LoadFromFile('ИнформацияКартинки\HardDisc.png');
+  Form3.Label1.Caption:='Жёсткий диск';
+end;
+
+procedure TForm2.PKulerClick(Sender: TObject);
+begin
+  Form2.Optical.Visible:=false;
+  Form2.PC.Visible:=False;
+  Form2.Video.Visible:=False;
+  Form2.MotherBoard.Visible:=false;
+  Form2.Block.Visible:=false;
+  Form2.Net.Visible:=false;
+  Form2.Hard.Visible:=false;
+  Form2.Sound.Visible:=false;
+  Form2.RAM.Visible:=false;
+
+  Form2.RadioGroup1.Visible:=True;
+  Form2.Kuler.Visible:=true;
+  Form2.Image1.Picture.LoadFromFile('ИнформацияКартинки\Кулер.png');
+  Form2.Image1.Visible:=true;
+  Form2.Label5.Caption:='Кулер';
+  Form2.Label5.Visible:=true;
+  Form2.Panel2.Visible:=true;
+  Form2.Button2.Visible:=true;
+end;
+
+procedure TForm2.PMotherBoardClick(Sender: TObject);
+begin
+  Form2.RadioGroup1.Visible:=false;
+  Form2.Kuler.Visible:=false;
+  Form2.PC.Visible:=False;
+  Form2.Video.Visible:=False;
+  Form2.Optical.Visible:=false;
+  Form2.Block.Visible:=false;
+  Form2.Net.Visible:=false;
+  Form2.Hard.Visible:=false;
+  Form2.Sound.Visible:=false;
+  Form2.RAM.Visible:=false;
+
+  Form2.MotherBoard.Visible:=true;
+  Form2.Image1.Picture.LoadFromFile('ИнформацияКартинки\Mother.png');
+  Form2.Image1.Visible:=true;
+  Form2.Label5.Caption:='Материнская плата';
+  Form2.Label5.Visible:=true;
+  Form2.Panel2.Visible:=true;
+  Form2.Button2.Visible:=true;
+
+  Form3.Memo1.Lines.LoadFromFile('ИнформацияТекст\MotherBoard.txt');
+  Form3.Image1.Picture.LoadFromFile('ИнформацияКартинки\Mother.png');
+  Form3.Label1.Caption:='Материнская плата';
+end;
+
+procedure TForm2.PNetClick(Sender: TObject);
+begin
+  Form2.RadioGroup1.Visible:=false;
+  Form2.Kuler.Visible:=false;
+  Form2.PC.Visible:=False;
+  Form2.Video.Visible:=False;
+  Form2.MotherBoard.Visible:=false;
+  Form2.Block.Visible:=false;
+  Form2.Optical.Visible:=false;
+  Form2.Hard.Visible:=false;
+  Form2.Sound.Visible:=false;
+  Form2.RAM.Visible:=false;
+
+  Form2.Net.Visible:=true;
+  Form2.Image1.Picture.LoadFromFile('ИнформацияКартинки\NetCard.png');
+  Form2.Image1.Visible:=true;
+  Form2.Label5.Caption:='Сетевая карта';
+  Form2.Label5.Visible:=true;
+  Form2.Panel2.Visible:=true;
+  Form2.Button2.Visible:=true;
+
+  Form3.Memo1.Lines.LoadFromFile('ИнформацияТекст\Net.txt');
+  Form3.Image1.Picture.LoadFromFile('ИнформацияКартинки\NetCard.png');
+  Form3.Label1.Caption:='Сетевая карта';
+end;
+
+procedure TForm2.POpticalClick(Sender: TObject);
+begin
+  Form2.RadioGroup1.Visible:=false;
+  Form2.Kuler.Visible:=false;
+  Form2.PC.Visible:=False;
+  Form2.Video.Visible:=False;
+  Form2.MotherBoard.Visible:=false;
+  Form2.Block.Visible:=false;
+  Form2.Net.Visible:=false;
+  Form2.Hard.Visible:=false;
+  Form2.Sound.Visible:=false;
+  Form2.RAM.Visible:=false;
+
+  Form2.Optical.Visible:=true;
+  Form2.Image1.Picture.LoadFromFile('ИнформацияКартинки\OpticalDrive.png');
+  Form2.Image1.Visible:=true;
+  Form2.Label5.Caption:='Оптический привод';
+  Form2.Label5.Visible:=true;
+  Form2.Panel2.Visible:=true;
+  Form2.Button2.Visible:=true;
+
+  Form3.Memo1.Lines.LoadFromFile('ИнформацияТекст\OpticalDrive.txt');
+  Form3.Image1.Picture.LoadFromFile('ИнформацияКартинки\OpticalDrive.png');
+  Form3.Label1.Caption:='Оптический привод';
+end;
+
+procedure TForm2.PRAMClick(Sender: TObject);
+begin
+  Form2.RadioGroup1.Visible:=false;
+  Form2.Kuler.Visible:=false;
+  Form2.PC.Visible:=False;
+  Form2.Video.Visible:=False;
+  Form2.MotherBoard.Visible:=false;
+  Form2.Block.Visible:=false;
+  Form2.Net.Visible:=false;
+  Form2.Hard.Visible:=false;
+  Form2.Sound.Visible:=false;
+  Form2.Optical.Visible:=false;
+
+  Form2.RAM.Visible:=true;
+  Form2.Image1.Picture.LoadFromFile('ИнформацияКартинки\Ram.png');
+  Form2.Image1.Visible:=true;
+  Form2.Label5.Caption:='Оперативная память';
+  Form2.Label5.Visible:=true;
+  Form2.Panel2.Visible:=true;
+  Form2.Button2.Visible:=true;
+
+  Form3.WebBrowser1.Navigate(ExtractFilePath(Application.ExeName)+'ИнформацияТекст\RAM.htm');
+  Form3.Image1.Picture.LoadFromFile('ИнформацияКартинки\Ram.png');
+  Form3.Label1.Caption:='Оперативная память';
+end;
+
+procedure TForm2.PSoundClick(Sender: TObject);
+begin
+  Form2.RadioGroup1.Visible:=false;
+  Form2.Kuler.Visible:=false;
+  Form2.PC.Visible:=False;
+  Form2.Video.Visible:=False;
+  Form2.MotherBoard.Visible:=false;
+  Form2.Block.Visible:=false;
+  Form2.Net.Visible:=false;
+  Form2.Hard.Visible:=false;
+  Form2.Optical.Visible:=false;
+  Form2.RAM.Visible:=false;
+
+  Form2.Sound.Visible:=true;
+  Form2.Image1.Picture.LoadFromFile('ИнформацияКартинки\SoundCard.png');
+  Form2.Image1.Visible:=true;
+  Form2.Label5.Caption:='Звуковая карта';
+  Form2.Label5.Visible:=true;
+  Form2.Panel2.Visible:=true;
+  Form2.Button2.Visible:=true;
+
+  Form3.Memo1.Lines.LoadFromFile('ИнформацияТекст\SoundCard.txt');
+  Form3.Image1.Picture.LoadFromFile('ИнформацияКартинки\SoundCard.png');
+  Form3.Label1.Caption:='Звуковая карта';
+end;
+
+procedure TForm2.PVideoClick(Sender: TObject);
+begin
+  Form2.RadioGroup1.Visible:=false;
+  Form2.Kuler.Visible:=false;
+  Form2.PC.Visible:=False;
+  Form2.Optical.Visible:=False;
+  Form2.MotherBoard.Visible:=false;
+  Form2.Block.Visible:=false;
+  Form2.Net.Visible:=false;
+  Form2.Hard.Visible:=false;
+  Form2.Sound.Visible:=false;
+  Form2.RAM.Visible:=false;
+
+  Form2.Video.Visible:=true;
+  Form2.Image1.Picture.LoadFromFile('ИнформацияКартинки\Видеокарта.png');
+  Form2.Image1.Visible:=true;
+  Form2.Label5.Caption:='Видеокарта';
+  Form2.Label5.Visible:=true;
+  Form2.Panel2.Visible:=true;
+  Form2.Button2.Visible:=true;
+
+  Form3.Memo1.Lines.LoadFromFile('ИнформацияТекст\VideoCard.txt');
+  Form3.Image1.Picture.LoadFromFile('ИнформацияКартинки\Видеокарта.png');
+  Form3.Label1.Caption:='Видеокарта';
+end;
+
+
+procedure TForm2.RadioGroup1Click(Sender: TObject);
+begin
+
+if radiogroup1.ItemIndex=0 then
+  begin
+    Form2.Image1.Picture.LoadFromFile('ИнформацияКартинки\Кулер.png');
+    Form2.Image1.Visible:=True;
+    Form2.Button2.Visible:=True;
+    Form2.Label5.Caption:='Кулер';
+    Form2.Label5.Visible:=True;
+    Form2.Panel2.Visible:=true;
+    Form3.Memo1.Lines.LoadFromFile('ИнформацияТекст\CollingSys.txt');
+    Form3.Image1.Picture.LoadFromFile('ИнформацияКартинки\Coolingsystem.png');
+    Form3.Label1.Caption:='Кулер';
+  end;
+if radiogroup1.ItemIndex=1 then
+  begin
+    Form2.Image1.Picture.LoadFromFile('ИнформацияКартинки\Процессор.png');
+    Form2.Image1.Visible:=True;
+    Form2.Button2.Visible:=True;
+    Form2.Label5.Caption:='Процессор';
+    Form2.Label5.Visible:=True;
+    Form2.Panel2.Visible:=true;
+    Form3.Memo1.Lines.LoadFromFile('ИнформацияТекст\CPU.txt');
+    Form3.Image1.Picture.LoadFromFile('ИнформацияКартинки\Процессор.png');
+    Form3.Label1.Caption:='Процессор';
+  end;
+end;
+
+procedure TForm2.Shape1MouseEnter(Sender: TObject);
+begin
+Shape1.Brush.Color:=clGray;
+end;
+
+procedure TForm2.Shape1MouseLeave(Sender: TObject);
+begin
+Shape1.Brush.Color:=clWhite;
+end;
+
+end.

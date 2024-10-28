@@ -1,0 +1,48 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <ProjectGuid>{41CDB780-8FC1-4098-8A1C-7E8256A75744}</ProjectGuid>
+    </PropertyGroup>
+    <ItemGroup>
+        <Projects Include="Project2.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="..\ОАИП\Лабораторная №36 сделана\Страницы VCL\My_Demo_VCL.dproj">
+            <Dependencies/>
+        </Projects>
+    </ItemGroup>
+    <ProjectExtensions>
+        <Borland.Personality>Default.Personality.12</Borland.Personality>
+        <Borland.ProjectType/>
+        <BorlandProject>
+            <Default.Personality/>
+        </BorlandProject>
+    </ProjectExtensions>
+    <Target Name="Project2">
+        <MSBuild Projects="Project2.dproj"/>
+    </Target>
+    <Target Name="Project2:Clean">
+        <MSBuild Projects="Project2.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="Project2:Make">
+        <MSBuild Projects="Project2.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="My_Demo_VCL">
+        <MSBuild Projects="..\ОАИП\Лабораторная №36 сделана\Страницы VCL\My_Demo_VCL.dproj"/>
+    </Target>
+    <Target Name="My_Demo_VCL:Clean">
+        <MSBuild Projects="..\ОАИП\Лабораторная №36 сделана\Страницы VCL\My_Demo_VCL.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="My_Demo_VCL:Make">
+        <MSBuild Projects="..\ОАИП\Лабораторная №36 сделана\Страницы VCL\My_Demo_VCL.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Build">
+        <CallTarget Targets="Project2;My_Demo_VCL"/>
+    </Target>
+    <Target Name="Clean">
+        <CallTarget Targets="Project2:Clean;My_Demo_VCL:Clean"/>
+    </Target>
+    <Target Name="Make">
+        <CallTarget Targets="Project2:Make;My_Demo_VCL:Make"/>
+    </Target>
+    <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+</Project>

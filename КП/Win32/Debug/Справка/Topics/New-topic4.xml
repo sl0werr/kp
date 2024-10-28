@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../helpproject.xsl" ?>
+<topic template="Default" modified="2024-06-20T15:39:48.999+03:00" lasteditedby="GIGABYTE" version="2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd">
+  <title>Об разработчике</title>
+  <body>
+    <header>
+      <para styleclass="Heading1">Об разработчике</para>
+    </header>
+    <para styleclass="Normal"><tab /></para>
+    <para styleclass="Normal"><tab /><text style="font-size:14pt;">Я - Хартанович Никита Иванович и я являюсь разработчиком приложения &quot;PCHelper&quot;.</text></para>
+    <para styleclass="Normal"><tab /><text style="font-size:14pt;">Родился я в городе Щучин в 2007 году и с самого начала своего обучения в школе, пока все мечтали стать космонавтами и пожарными, я мечтал стать программистом, но тогда я считал, что эта цель является недостижимой для меня. И вот в 2022 году я поступаю в Политехнический колледж на профессию Техник-Программист. Мне очень нравится работать с компьютером и изучать что-то новое.</text></para>
+    <para styleclass="Normal"><tab /><text style="font-size:14pt;">Итак к приложению. Идея сосздать его пришла не сразу. Изначально это должно было быть приложение о составе автомобиля, но позже я подумал, что интереснее будет рассказать про компьютер. И правда, я считаю мне удалось полностью раскрыть эту тему. Мое приложение может использоваться любым человеком, даже тем который ни разу в жизни не имел дело с компьютером, ведь эта информация никогда не будет вредной.</text></para>
+    <para styleclass="Normal" style="text-align:right;"><text style="font-size:14pt;">Email: </text><link displaytype="text" defaultstyle="true" type="weblink" href="mailto:&lt;%LINK_CAPTION%&gt;" style="font-size:14pt;">nikalatoshonok@gmail.com</link></para>
+    <para styleclass="Normal" style="text-align:right;"></para>
+    <para styleclass="Normal" style="text-align:right;"></para>
+  </body>
+</topic>

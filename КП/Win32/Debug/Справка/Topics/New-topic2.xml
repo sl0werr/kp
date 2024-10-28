@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../helpproject.xsl" ?>
+<topic template="Default" modified="2024-06-20T14:57:41.408+03:00" lasteditedby="GIGABYTE" version="2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd">
+  <title>Навигация</title>
+  <body>
+    <header>
+      <para styleclass="Heading1">Навигация</para>
+    </header>
+    <para styleclass="Heading1"><tab />Запуск прииложения</para>
+    <para styleclass="Normal"><text style="font-family:&apos;Times New Roman Baltic&apos;; font-size:12pt;">После запуска приложения нас встречает окно загрузки.</text></para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal" style="text-align:center;"><image src="Снимок экрана 2024-06-20 141521.png" imagestyleclass="Default" scale="40.63%" width="325" height="309" styleclass="Image Caption" figurelistinclude="0"></image></para>
+    <para styleclass="Normal" style="text-align:center;"></para>
+    <para styleclass="Normal" style="text-align:center;">Рисунок 1 - Окно загрузки</para>
+    <para styleclass="Heading1"></para>
+    <para styleclass="Heading1"><tab />Главное окно</para>
+    <para styleclass="Normal" style="text-indent:-47px; margin-left:48px;"><text style="font-family:&apos;Times New Roman Baltic&apos;; font-size:12pt;">После загрузки нас встречает главное окно приложения, с помощью которого происходит навигация по всему приложению.</text></para>
+    <para styleclass="Normal" style="text-indent:-47px; margin-left:48px;"></para>
+    <para styleclass="Normal" style="text-align:center; text-indent:-47px; margin-left:48px;"><image src="Снимок экрана 2024-06-20 141901.png" imagestyleclass="Default" scale="49.03%" width="393" height="358" styleclass="Image Caption" figurelistinclude="0"></image></para>
+    <para styleclass="Normal" style="text-align:center;"></para>
+    <para styleclass="Normal" style="text-align:center;">Рисунок 2 - Главное меню</para>
+    <para styleclass="Normal" style="text-align:center;"></para>
+    <para styleclass="Heading1"><tab />Окно изучения</para>
+    <para styleclass="Normal"><text style="font-family:&apos;Times New Roman Baltic&apos;; font-size:12pt;">Переход по первой кнопке перенаправляет нас в окно с изучением компонентов.</text></para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal" style="text-align:center;"><image src="Снимок экрана 2024-06-20 141913.png" imagestyleclass="Default" scale="44.28%" width="519" height="422" styleclass="Image Caption" figurelistinclude="0"></image></para>
+    <para styleclass="Normal" style="text-align:center;"></para>
+    <para styleclass="Normal" style="text-align:center;">Рисунок 3 - Окно изучения</para>
+    <para styleclass="Normal" style="text-align:center;"></para>
+    <para styleclass="Normal"><text style="font-family:&apos;Times New Roman Baltic&apos;; font-size:12pt;">После клика по одному из компонентов появляется его картинка и кнопка &quot;Узнать больше&quot;, нажатие по которой вызывает информационное окно с расширенной информацией про данный компонент.</text></para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal" style="text-align:center;"><image src="Снимок экрана 2024-06-20 141924.png" imagestyleclass="Default" scale="34.92%" width="339" height="327" styleclass="Image Caption" figurelistinclude="0"></image></para>
+    <para styleclass="Normal" style="text-align:center;"></para>
+    <para styleclass="Normal" style="text-align:center;">Рисунок 4 - Информационное окно</para>
+    <para styleclass="Normal" style="text-align:center;"></para>
+    <para styleclass="Heading1"><tab />Игра &quot;Собери сам&quot;</para>
+    <para styleclass="Normal"><text style="font-family:&apos;Times New Roman Baltic&apos;; font-size:12pt;">Вторая кнопка на главном окне перенаправляет нас на игру, в которой мы с подсказками или без (на выбор) можем собрать системный блок.</text></para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal" style="text-align:center;"><image src="Снимок экрана 2024-06-20 141947.png" imagestyleclass="Default" scale="33.19%" width="400" height="304" styleclass="Image Caption" figurelistinclude="0"></image></para>
+    <para styleclass="Normal" style="text-align:center;"></para>
+    <para styleclass="Normal" style="text-align:center;">Рисунок 5 - Игра</para>
+    <para styleclass="Normal" style="text-align:center;"></para>
+    <para styleclass="Heading1"><tab />Тест</para>
+    <para styleclass="Normal"><text style="font-family:&apos;Times New Roman Baltic&apos;; font-size:12pt;">Третья кнопка на главном окне перенаправляет нас на тест, который поможет проверить себя на знания всех компонентов.</text></para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal" style="text-align:center;"><image src="Снимок экрана 2024-06-20 141958.png" imagestyleclass="Default" scale="34.87%" width="401" height="250" styleclass="Image Caption" figurelistinclude="0"></image></para>
+    <para styleclass="Normal" style="text-align:center;"></para>
+    <para styleclass="Normal" style="text-align:center;">Рисунок 6 - Тест</para>
+  </body>
+</topic>

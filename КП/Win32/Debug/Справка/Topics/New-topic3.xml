@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../helpproject.xsl" ?>
+<topic template="Default" modified="2024-06-20T15:14:07.884+03:00" lasteditedby="GIGABYTE" version="2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd">
+  <title>Об игре</title>
+  <body>
+    <header>
+      <para styleclass="Heading1">Об игре</para>
+    </header>
+    <para styleclass="Heading1"></para>
+    <para styleclass="Heading1">Здесь Вы узнаете о том в чем суть игры &quot;Собери сам&quot;</para>
+    <para styleclass="Normal"></para>
+    <list id="0" type="ul" listtype="bullet" formatstring="&#183;" format-charset="SYMBOL_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="Normal" style="text-indent:-13px; margin-left:76px; line-height:1.50; font-family:Symbol; font-size:12pt; color:#000000;">
+      <li styleclass="Normal" style="text-indent:-13px; margin-left:76px; line-height:1.50;"><text style="font-family:&apos;Times New Roman Baltic&apos;; font-size:12pt;">В данной игре поставлена задача собрать компьютер. Вокруг пустого системного блока лежат его компоненты. Данные компоненты можно перетаскивать в системный блок. </text></li>
+      <li styleclass="Normal" style="text-indent:-13px; margin-left:76px; line-height:1.50;"><text style="font-family:&apos;Times New Roman Baltic&apos;; font-size:12pt;">Задача установить все элемнты на свои места (если установлено не на то место, программа сообщит об этом). </text></li>
+      <li styleclass="Normal" style="text-indent:-13px; margin-left:76px; line-height:1.50;"><text style="font-family:&apos;Times New Roman Baltic&apos;; font-size:12pt;">Присутствует кнопка &quot;Включить подсказки&quot;, при нажатии на которую в системном блоке подсвечиваются места установки компонентов. </text></li>
+      <li styleclass="Normal" style="text-indent:-13px; margin-left:76px; line-height:1.50;"><text style="font-family:&apos;Times New Roman Baltic&apos;; font-size:12pt;">После окончания сборки нужно нажать на кнопку &quot;Нажми, если собрал&quot;, высветится окно о уведомлении конечной сборки.</text></li>
+    </list>
+    <para styleclass="Normal" style="text-indent:-13px; margin-left:76px; line-height:1.50;"></para>
+    <para styleclass="Normal" style="text-align:center; text-indent:-13px; margin-left:76px; line-height:1.50;"><image src="Нью.png" imagestyleclass="Default" scale="62.88%" width="757" height="576" styleclass="Image Caption" figurelistinclude="0"></image></para>
+    <para styleclass="Normal" style="text-align:center; text-indent:-13px; margin-left:76px; line-height:1.50;"></para>
+    <para styleclass="Normal" style="text-align:center; text-indent:-13px; margin-left:76px; line-height:1.50;">Рисунок 1 - Указания на основные компоненты</para>
+  </body>
+</topic>

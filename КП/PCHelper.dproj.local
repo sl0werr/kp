@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>1899.12.30 00:00:00.000.812,=C:\Лабы и практосы\КП\Unit7.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.801,C:\Лабы и практосы\КП\InfomationWindow.dfm=C:\Лабы и практосы\КП\InformationWindow.dfm</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.091,C:\Лабы и практосы\КП\Screensaver.pas=C:\Лабы и практосы\КП\Unit6.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.720,=C:\Лабы и практосы\КП\Unit3.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.906,C:\Лабы и практосы\КП\Project2.dproj=C:\Лабы и практосы\КП\PCHelper.dproj</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.010,=C:\Лабы и практосы\КП\Unit6.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.265,=C:\Лабы и практосы\КП\Unit5.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.685,C:\Лабы и практосы\КП\Unit2.dfm=C:\Лабы и практосы\КП\ComputerInfo.dfm</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.231,=C:\Лабы и практосы\КП\Unit4.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.327,C:\Лабы и практосы\КП\Unit4.pas=C:\Лабы и практосы\КП\ComputerGame.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.073,C:\Лабы и практосы\КП\Cooling_system.dfm=C:\Лабы и практосы\КП\InfomationWindow.dfm</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.793,C:\Лабы и практосы\КП\Cooling_system.dfm=C:\Лабы и практосы\КП\Unit3.dfm</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.096,C:\Лабы и практосы\КП\Test.pas=C:\Лабы и практосы\КП\Unit5.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.091,C:\Лабы и практосы\КП\Screensaver.dfm=C:\Лабы и практосы\КП\Unit6.dfm</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.873,C:\Users\GIGABYTE\Documents\Embarcadero\Studio\Projects\Unit1.dfm=C:\Лабы и практосы\КП\Computer.dfm</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.073,C:\Лабы и практосы\КП\Cooling_system.pas=C:\Лабы и практосы\КП\InfomationWindow.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.793,C:\Лабы и практосы\КП\Cooling_system.pas=C:\Лабы и практосы\КП\Unit3.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.852,=C:\Лабы и практосы\КП\Unit2.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.685,C:\Лабы и практосы\КП\Unit2.pas=C:\Лабы и практосы\КП\ComputerInfo.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.693,C:\Users\GIGABYTE\Documents\Embarcadero\Studio\Projects\Project2.dproj=C:\Лабы и практосы\КП\Project2.dproj</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.414,C:\Лабы и практосы\КП\AboutProgramm.pas=C:\Лабы и практосы\КП\Unit7.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.801,C:\Лабы и практосы\КП\InfomationWindow.pas=C:\Лабы и практосы\КП\InformationWindow.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.873,C:\Users\GIGABYTE\Documents\Embarcadero\Studio\Projects\Unit1.pas=C:\Лабы и практосы\КП\Computer.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.931,=C:\Users\GIGABYTE\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.414,C:\Лабы и практосы\КП\AboutProgramm.dfm=C:\Лабы и практосы\КП\Unit7.dfm</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.096,C:\Лабы и практосы\КП\Test.dfm=C:\Лабы и практосы\КП\Unit5.dfm</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.327,C:\Лабы и практосы\КП\Unit4.dfm=C:\Лабы и практосы\КП\ComputerGame.dfm</Transaction>
+  </Transactions>
+	<ProjectSortOrder AutoSort="0" SortType="0">
+    <File Path="AboutProgramm.pas"/>
+    <File Path="AboutProgramm.dfm"/>
+    <File Path="Computer.pas"/>
+    <File Path="Computer.dfm"/>
+    <File Path="ComputerGame.pas"/>
+    <File Path="ComputerGame.dfm"/>
+    <File Path="ComputerInfo.pas"/>
+    <File Path="ComputerInfo.dfm"/>
+    <File Path="InformationWindow.pas"/>
+    <File Path="InformationWindow.dfm"/>
+    <File Path="Screensaver.pas"/>
+    <File Path="Screensaver.dfm"/>
+    <File Path="Test.pas"/>
+    <File Path="Test.dfm"/>
+  </ProjectSortOrder>
+</BorlandProject>

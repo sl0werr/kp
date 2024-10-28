@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../helpproject.xsl" ?>
+<topic template="Default" modified="2024-06-20T15:47:31.460+03:00" lasteditedby="GIGABYTE" version="2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd">
+  <title>О приложении</title>
+  <body>
+    <header>
+      <para styleclass="Heading1">О приложении</para>
+    </header>
+    <para styleclass="Heading1"></para>
+    <para styleclass="Heading1"><tab />Общие сведения о приложении</para>
+    <para styleclass="Normal" style="text-align:justify; margin-bottom:0px; line-height:1.15;"></para>
+    <para styleclass="Normal" style="text-align:justify; margin-bottom:0px; line-height:1.15;"><tab /><text style="font-family:&apos;Times New Roman Baltic&apos;; font-size:12pt; font-weight:bold;">PCHelper - </text><text style="font-family:&apos;Times New Roman Baltic&apos;; font-size:12pt;">это приложение предназначенное для изучения </text><text style="font-family:&apos;Times New Roman Baltic&apos;; font-size:12pt; font-weight:bold; color:#ff0000;">системного блока</text><text style="font-family:&apos;Times New Roman Baltic&apos;; font-size:12pt;">. Приложение содержит всю необходимую информацию для пользователя: отдельная информация про компоненты Системного блока, местоположение компонентов в Системном блоке, тест по изученному материалу.</text></para>
+    <para styleclass="Normal" style="text-align:justify; margin-bottom:0px; line-height:1.15;"><tab /><text style="font-family:&apos;Times New Roman Baltic&apos;; font-size:12pt;">Данное приложение предназначено для любого пользователя. Её могут использовать не только люди занятые в сфере компьютерных технологий, но также и люди, которые просто хотят открыть для себя что-то новое в мире технологий.</text></para>
+    <para styleclass="Heading1"></para>
+    <para styleclass="Heading1"><tab />Инсталляция</para>
+    <para styleclass="Normal" style="text-align:justify; margin-bottom:0px; line-height:1.15;"></para>
+    <para styleclass="Normal" style="text-align:justify; margin-bottom:0px; line-height:1.15;"><tab /><text style="font-family:&apos;Times New Roman Baltic&apos;; font-size:12pt;">Для того чтобы установить данное приложения достаточно двойного клика по файлу Setup.exe.</text></para>
+    <para styleclass="Heading1"></para>
+    <para styleclass="Heading1"><tab />Запуск программы</para>
+    <para styleclass="Normal" style="text-align:justify; margin-bottom:0px; line-height:1.15;"></para>
+    <para styleclass="Normal" style="text-align:justify; margin-bottom:0px; line-height:1.15;"><tab /><text style="font-family:&apos;Times New Roman Baltic&apos;; font-size:12pt;">Запустить данный программный продукт можно с помощью ярлыка появившегося после его установки.</text></para>
+    <para styleclass="Normal" style="text-align:justify; margin-bottom:0px; line-height:1.15;"></para>
+    <para styleclass="Heading1"><tab />Коротко о главном</para>
+    <para styleclass="Normal" style="text-align:justify; margin-bottom:0px; line-height:1.15;"></para>
+    <list id="0" type="ul" listtype="bullet" formatstring="&#183;" format-charset="SYMBOL_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="Normal" style="text-align:justify; text-indent:-13px; margin-bottom:0px; margin-left:48px; line-height:1.15; font-family:Symbol; font-size:12pt; color:#000000;">
+      <li styleclass="Normal" style="text-align:justify; text-indent:-13px; margin-bottom:0px; margin-left:48px; line-height:1.15;"><text style="font-family:&apos;Times New Roman Baltic&apos;; font-size:12pt;">PCHelper подойдет для любого человека от самых непрошаренных до начинающих программистов.</text></li>
+      <li styleclass="Normal" style="text-align:justify; text-indent:-13px; margin-bottom:0px; margin-left:48px; line-height:1.15;"><text style="font-family:&apos;Times New Roman Baltic&apos;; font-size:12pt;">Все кнопки и кликабельные элементы приложения работают быстро и четко.</text></li>
+      <li styleclass="Normal" style="text-align:justify; text-indent:-13px; margin-bottom:0px; margin-left:48px; line-height:1.15;"><text style="font-family:&apos;Times New Roman Baltic&apos;; font-size:12pt;">Данный программный продукт был протестирован на разных классах ЭВМ и на каждом из них было комфортно работать. Программа разработана на ПК со следующими характеристиками: процессор 11th Gen Intel(R) Core(TM) i51135G7 @ 2.40 GHz - объем ОЗУ 8 Гб; графический адаптер NVIDEA 3060; опреационная система Windows 11.</text></li>
+      <li styleclass="Normal" style="text-align:justify; text-indent:-13px; margin-bottom:0px; margin-left:48px; line-height:1.15;"><text style="font-family:&apos;Times New Roman Baltic&apos;; font-size:12pt;">PCHelper это современная программа для изучения состава ПК.</text></li>
+    </list>
+  </body>
+</topic>

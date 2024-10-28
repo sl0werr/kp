@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../helpproject.xsl" ?>
+<topic template="Default" modified="2024-06-20T15:04:55.821+03:00" lasteditedby="GIGABYTE" version="2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd">
+  <title>О тесте</title>
+  <body>
+    <header>
+      <para styleclass="Heading1">О тесте</para>
+    </header>
+    <para styleclass="Normal"></para>
+    <para styleclass="Heading1"><tab />Здесь Вы узнаете о том как устроен тест.</para>
+    <para styleclass="Normal"><tab /><text style="font-family:&apos;Times New Roman Baltic&apos;; font-size:12pt;">1. В нем присутствуют два переключателя, которые отвечают за сложность теста. В легком тесте 10 вопросов с понятием компонента и ответом в виде названия самого компонента. В сложном тесте также 10 вопросов, но вопрос в вопросе название компонента, а в виде ответа нужно выбрать понятие подходящее к нему.</text></para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal" style="text-align:center;"><image src="1.png" scale="100.00%" styleclass="Image Caption" figurelistinclude="0"></image></para>
+    <para styleclass="Normal" style="text-align:center;"></para>
+    <para styleclass="Normal" style="text-align:center;">Рисунок 1 - Перекулючатель</para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal"><tab /><text style="font-family:&apos;Times New Roman Baltic&apos;; font-size:12pt;">2. Есть кнопка которая перезапускает тест полностью.</text></para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal" style="text-align:center;"><image src="Перез.png" imagestyleclass="Default" scale="100.00%" styleclass="Image Caption" figurelistinclude="0"></image></para>
+    <para styleclass="Normal" style="text-align:center;"></para>
+    <para styleclass="Image Caption" style="text-align:center;"><text style="font-size:11pt; font-weight:normal;">Рисунок 2 - Перезапуск</text></para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal"><tab /><text style="font-family:&apos;Times New Roman Baltic&apos;; font-size:12pt;">3. Зеленая галочка отвечает за ответ на вопрос.</text></para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal" style="text-align:center;"><image src="готово.png" imagestyleclass="Default" scale="100.00%" styleclass="Image Caption" figurelistinclude="0"></image></para>
+    <para styleclass="Normal" style="text-align:center;"></para>
+    <para styleclass="Normal" style="text-align:center;"><text styleclass="Image Caption" style="font-size:11pt; font-weight:normal;">Рисунок 3 - Ответ на вопрос</text></para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal"><tab /><text style="font-family:&apos;Times New Roman Baltic&apos;; font-size:12pt;">4. После прохождения всего теста появится результат прохождения с процентами правильности.</text></para>
+  </body>
+</topic>

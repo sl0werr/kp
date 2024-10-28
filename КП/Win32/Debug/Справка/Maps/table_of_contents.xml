@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<map xmlns:xsi="http://www.w3.org/2001/XInclude">
+  <topicref type="topic" id="454634142118817" build="ALL" modified="2024-06-20T13:47:55.629Z" icon="0" href="Introduction">
+    <caption translate="true">Общие сведения</caption>
+    <topicref type="topic" id="454636429033591" build="ALL" modified="2024-06-20T13:48:09.279Z" icon="0" href="Welcome-topic">
+      <caption translate="true">О приложении</caption>
+    </topicref>
+    <topicref type="topic" id="454636764554735" build="ALL" modified="2024-06-20T14:20:11.038Z" icon="0" href="New-topic2">
+      <caption translate="true">Навигация</caption>
+    </topicref>
+    <topicref type="topic" id="454634085010267" build="ALL" modified="2024-06-20T14:50:29.968Z" icon="0" href="New-topic">
+      <caption translate="true">О тесте</caption>
+    </topicref>
+    <topicref type="topic" id="454637374188951" build="ALL" modified="2024-06-20T15:05:37.997Z" icon="0" href="New-topic3">
+      <caption translate="true">Об игре</caption>
+    </topicref>
+    <topicref type="topic" id="454635165320196" build="ALL" modified="2024-06-20T15:15:24.499Z" icon="0" href="New-topic4">
+      <caption translate="true">Об разработчике</caption>
+    </topicref>
+  </topicref>
+</map>
